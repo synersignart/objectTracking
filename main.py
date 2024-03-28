@@ -27,6 +27,7 @@ def selectTracker(tracker_type):
     return tracker
 
 
+
 def main():
     print("e: Yeni bir nesne seçmek için tıklayın")
     tracker = selectTracker(1)
